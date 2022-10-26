@@ -1,0 +1,20 @@
+.accountDetailsContainer {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 1.5em;
+  display: flex;
+  gap: 2em;
+}
+
+.personal_details {
+  width: 50%;
+}
+
+.listDetails {
+  margin-top: 8px;
+}
+.itemDetails {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}

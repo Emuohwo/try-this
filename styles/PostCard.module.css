@@ -1,0 +1,116 @@
+.postCardContainer {
+  margin: 1em 0;
+}
+
+.cardHeader {
+  background: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+.cardHeader img {
+  cursor: pointer;
+}
+.cardHeader img:first-child {
+  border: 2px solid red;
+  padding: .1em;
+}
+
+.cardHeader p,
+.cardHeader h4{
+  margin: 0;
+}
+
+.cardHeader p {
+  color: #ADACAC;
+  font-size: 8px;
+}
+
+.city {
+  font-size: 10px;
+  line-height: 12px;
+;
+}
+
+.cardHeader_left {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.postAuthor {
+  border-radius: 50%;
+}
+
+/* Body */
+.cardBody {
+  position: relative;
+}
+
+.cardBody span {
+  background: #FF8661;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 0.5em 1em;
+  position: absolute;
+  left: 14px;
+  top: 10px;
+}
+.postBanner {
+  width: 100%;
+  height: auto;
+}
+
+.sourceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em 2em;
+}
+
+.sourceContainer a {
+  background: #D5D5D5;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+
+/* Footer */
+.cardFooter {
+  background: #ffffff;
+  padding: .5em 2em;
+}
+
+.iconsBox,
+.flexIcons {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postStats {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.postStats img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.postStats span {font-weight: bold;}
+
+/* .postComment {
+
+} */
+
+.postComment span {
+  font-weight: bold;
+  margin-right: 8px;
+}

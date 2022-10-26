@@ -1,0 +1,45 @@
+.headerBox {
+  background-color: #ffffff;
+}
+
+.headerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  background: #F8F8F8;
+  border-radius: 50px;
+  /* max-width: 570px; */
+  width: 570px;
+  height: 40px;
+  padding: 0.5em 1em;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: #F8F8F8;
+}
+
+.profileDetailsBox {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.iconWrapper {
+  position: relative;
+  padding: 0.5em 1em;
+  background: rgba(252, 62, 3, 0.06);;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
